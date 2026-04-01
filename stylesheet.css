@@ -1,0 +1,39 @@
+nav ul { 
+	display: flex;
+	justify-context: space-around;
+	Background-color: black;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	}
+nav ul li {
+	flex: 1;
+	text-align: center;
+	}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px 0;
+}
+main {
+	display : flex;
+	margin: 20px;
+}
+article {
+	flex: 3; /*40% width */
+	margin: 1.5em 2.52525% 0 2.0202%;
+}
+aside {
+	flex: 2; /* 40% width */
+	padding:  2.0202%;
+	max-width: 200px
+	min-height: 180px;
+	background-color: #ffebc6;
+	margin: 1.5em 2.0202% 0 0;
+	}
+footer {
+background-color: pink;
+text-align: center;
+padding: 10px;
+}
